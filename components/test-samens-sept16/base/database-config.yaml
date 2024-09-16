@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: test-samens-sept16-database-config
+data:
+  VECTORDB_HOST: "test-samens-sept16-database"
+  VECTORDB_PORT: ""
